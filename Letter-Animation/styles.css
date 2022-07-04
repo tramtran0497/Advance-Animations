@@ -14,31 +14,31 @@ body{
 }
 
 #text{
-    animation: fill 2s ease forwards 2.4s;
+    animation: fill 2s ease infinite forwards 2.4s;
 }
 
 #text path:nth-child(1){
     stroke-dasharray: 480.8px;
     stroke-dashoffset: 480.8px;
-    animation: line-animation 2s ease forwards;
+    animation: line-animation 2s ease infinite forwards;
 }
 
 #text path:nth-child(2){
     stroke-dasharray: 753px;
     stroke-dashoffset: 753px;
-    animation: line-animation 2s ease 0.3s  forwards;
+    animation: line-animation 2s ease 0.3s infinite forwards;
 }
 
 #text path:nth-child(3){
     stroke-dasharray: 664.6px;
     stroke-dashoffset: 664.6px;
-    animation: line-animation 2s ease 0.6s  forwards;
+    animation: line-animation 2s ease 0.6s infinite forwards;
 }
 
 #text path:nth-child(4){
     stroke-dasharray: 1020.5px;
     stroke-dashoffset: 1020.5px;
-    animation: line-animation 2s ease 0.9s  forwards;
+    animation: line-animation 2s ease 0.9s infinite forwards;
 } 
 
 @keyframes line-animation {
